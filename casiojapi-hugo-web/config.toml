@@ -14,7 +14,7 @@ paginate = 5
   themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -84,10 +84,18 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "about"
-        url = "/about"
+        identifier = "projects"
+        name = "projects"
+        url = "/projects"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "showcase"
-        url = "/showcase"
+        identifier = "contact"
+        name = "contact"
+        url = "/contact"
+      [[languages.en.menu.main]]
+        identifier = "donate"
+        name = "donate"
+        url = "/donate"
+      [[languages.en.menu.main]]
+        identifier = "cv"
+        name = "cv"
+        url = "/cv"
