@@ -1,0 +1,4 @@
+baseURL = 'https://casiojapi.github.io/'
+languageCode = 'en-us'
+title = 'casiojapi website'
+theme = 'hugo-theme-terminal'

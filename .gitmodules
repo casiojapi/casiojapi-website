@@ -1,0 +1,8 @@
+[submodule "casiojapi-hugo-web/casiojapi.github.io"]
+	path = casiojapi-hugo-web/casiojapi.github.io
+	url = https://github.com/casiojapi/casiojapi.github.io.git
+	branch = main
+[submodule "casiojapi-hugo-web/public"]
+	path = casiojapi-hugo-web/public
+	url = git@github.com:casiojapi/casiojapi.github.io.git
+	branch = main
