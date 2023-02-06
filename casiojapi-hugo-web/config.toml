@@ -84,18 +84,14 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "monero"
+        name = "monero"
+        url = "/monero"
+      [[languages.en.menu.main]]
         identifier = "projects"
         name = "projects"
         url = "/projects"
-      [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "contact"
-        url = "/contact"
-      [[languages.en.menu.main]]
-        identifier = "donate"
-        name = "donate"
-        url = "/donate"
-      [[languages.en.menu.main]]
-        identifier = "cv"
-        name = "cv"
-        url = "/cv"
+      #[[languages.en.menu.main]]
+      #  identifier = "cv"
+      #  name = "cv"
+      #  url = "https://casiojapi.github.io/cv"
