@@ -91,6 +91,10 @@ paginate = 5
         identifier = "projects"
         name = "projects"
         url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts"
       #[[languages.en.menu.main]]
       #  identifier = "cv"
       #  name = "cv"

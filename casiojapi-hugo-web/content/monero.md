@@ -2,6 +2,7 @@
 title: "monero"
 date: 2023-02-06T11:44:38-03:00
 draft: false
+cover: "monero_anime_girl.jpeg"
 ---
 ## Wallet
 * monero gui (desktop) - https://www.getmonero.org/downloads/
