@@ -65,7 +65,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "casiojapi@web"
+    title = "casioweb"
     subtitle = "BECOME UNGOVERNABLE"
     owner = "casiojapi"
     keywords = ""
@@ -95,7 +95,7 @@ paginate = 5
         identifier = "posts"
         name = "posts"
         url = "/posts"
-      #[[languages.en.menu.main]]
-      #  identifier = "cv"
-      #  name = "cv"
-      #  url = "https://casiojapi.github.io/cv"
+      [[languages.en.menu.main]]
+        identifier = "cv"
+        name = "cv"
+        url = "https://casiojapi.github.io/cv"
