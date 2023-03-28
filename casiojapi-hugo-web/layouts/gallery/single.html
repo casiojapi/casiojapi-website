@@ -44,14 +44,19 @@
         {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
       </div>
     {{- end -}}
+    {{ .Content | safeHTML }}
     <div class="row">
-        {{ $imageDir := "static/images" }}
-        {{ $images := readDir $imageDir }}
-        {{ range $images }}
-          {{ if and (not .IsDir) (or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg") (strings.HasSuffix .Name ".png") (strings.HasSuffix .Name ".gif") (strings.HasSuffix .Name ".webp")) }}
-            <div class="col-md-4 col-sm-6">
-              <img src="/{{ $imageDir }}/{{ .Name }}" alt="{{ .Name }}" class="img-fluid">
-            </div>
+        {{ range .Site.Pages }}
+          {{ if eq .Type "gallery" }}
+            {{ $imageDir := "static/images" }}
+            {{ $images := readDir $imageDir }}
+            {{ range $images }}
+              {{ if and (not .IsDir) (or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg") (strings.HasSuffix .Name ".png") (strings.HasSuffix .Name ".gif") (strings.HasSuffix .Name ".webp")) }}
+                <div class="col-md-4 col-sm-6">
+                  <img src="/{{ $imageDir }}/{{ .Name }}" alt="{{ .Name }}" class="img-fluid">
+                </div>
+              {{ end }}
+            {{ end }}
           {{ end }}
         {{ end }}
       </div>
