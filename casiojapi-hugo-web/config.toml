@@ -99,7 +99,7 @@ paginate = 5
         identifier = "cv"
         name = "cv"
         url = "https://casiojapi.github.io/cv"
-    #  [[languages.en.menu.main]]
-    #    identifier = "foto"
-    #    name = "foto"
-    #    url = "/foto"
+      [[languages.en.menu.main]]
+        identifier = "foto"
+        name = "foto"
+        url = "/foto"
