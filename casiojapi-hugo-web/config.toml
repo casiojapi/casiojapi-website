@@ -1,4 +1,4 @@
-baseurl = "https://casiojapi.github.io"
+baseurl = "https://casiojapi.xyz"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -98,8 +98,8 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "cv"
         name = "cv"
-        url = "https://casiojapi.github.io/cv"
-      [[languages.en.menu.main]]
-        identifier = "foto"
-        name = "foto"
-        url = "/foto"
+        url = "https://casiojapi.xyz/cv"
+     # [[languages.en.menu.main]]
+     #   identifier = "foto"
+     #   name = "foto"
+     #   url = "/foto"

@@ -1,4 +1,4 @@
-# [casiojapi.github.io](https://casiojapi.github.io)
+# [casiojapi.github.io](https://casiojapi.xyz)
 
 
 #### create post
